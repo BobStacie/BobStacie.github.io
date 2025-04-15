@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Centered Textbox</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    .textbox-container {
+      text-align: center;
+    }
+    input[type="text"] {
+      padding: 10px;
+      font-size: 18px;
+      width: 300px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+    }
+    input[type="text"]:focus {
+      border-color: #4a90e2;
+    }
+  </style>
+</head>
+<body>
+  <div class="textbox-container">
+    <input type="text" placeholder="Type something here..." />
+  </div>
+</body>
+</html>
